@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/PagerDuty/go-pagerduty?status.svg)](http://godoc.org/github.com/PagerDuty/go-pagerduty) [![Go Report Card](https://goreportcard.com/badge/github.com/PagerDuty/go-pagerduty)](https://goreportcard.com/report/github.com/PagerDuty/go-pagerduty) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/gojp/goreportcard/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/rays/go-pagerduty?status.svg)](http://godoc.org/github.com/rays/go-pagerduty) [![Go Report Card](https://goreportcard.com/badge/github.com/rays/go-pagerduty)](https://goreportcard.com/report/github.com/rays/go-pagerduty) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/gojp/goreportcard/blob/master/LICENSE)
 # go-pagerduty
 
 go-pagerduty is a CLI and [go](https://golang.org/) client library for the [PagerDuty v2 API](https://v2.developer.pagerduty.com/v2/page/api-reference).
@@ -7,12 +7,12 @@ go-pagerduty is a CLI and [go](https://golang.org/) client library for the [Page
 
 First, download the source code
 ```cli
-go get github.com/PagerDuty/go-pagerduty
+go get github.com/rays/go-pagerduty
 ```
 
 Next build the application.
 ```cli
-cd $GOPATH/src/github.com/PagerDuty/go-pagerduty
+cd $GOPATH/src/github.com/rays/go-pagerduty
 make install
 ```
 
@@ -50,7 +50,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/PagerDuty/go-pagerduty"
+	"github.com/rays/go-pagerduty"
 )
 
 var	authtoken = "" // Set your auth token here
@@ -75,7 +75,7 @@ simply by setting a new value in the `HTTPClient` field.
 
 ## Contributing
 
-1. Fork it ( https://github.com/PagerDuty/go-pagerduty/fork )
+1. Fork it ( https://github.com/rays/go-pagerduty/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

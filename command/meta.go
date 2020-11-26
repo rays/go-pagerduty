@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/PagerDuty/go-pagerduty"
+	"github.com/rays/go-pagerduty"
 	log "github.com/sirupsen/logrus"
 	"github.com/mitchellh/go-homedir"
 	"gopkg.in/yaml.v2"
